@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Distance Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="horizontalDistanceTraveledRadio" name="variables" checked>
+  <label for="horizontalDistanceTraveledRadio">Horizontal Distance Traveled</label>
+
+  <input type="radio" id="velocityoftheObjectRadio" name="variables">
+  <label for="velocityoftheObjectRadio">Velocity of the Object </label>
+
+  <input type="radio" id="timetakenRadio" name="variables">
+  <label for="timetakenRadio">Time taken</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(vx) Velocity of the Object (m/s)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(t) Time taken (s)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
